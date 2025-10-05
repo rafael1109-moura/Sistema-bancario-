@@ -5,7 +5,7 @@ using namespace std;
 
 // construtor
 Cliente::Cliente (string n, string c)
-    : nome(n), cpf(c) // Lista de Inicialização (Melhor Prática)
+    : nome(n), cpf(c) 
 {
     cout << "iniciando construtor" << endl;
 }
